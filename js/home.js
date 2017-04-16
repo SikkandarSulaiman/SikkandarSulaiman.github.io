@@ -64,7 +64,7 @@ $('.switch').click(function(){
 	}
 	if( $(this).css("background-position-x") == "-67px" ) {
 		$(this).css("background-position-x","0")
-		console.log(sendJSON({board:boardLocal,device:deviceLocal,state:"off"}))
+		sendJSON({board:boardLocal,device:deviceLocal,state:"off"})
 		$('#'+$(this).attr("id")+'img').css("background-image","url(images/red-led.png)")
 	} else {
 		$(this).css("background-position-x","-67px")

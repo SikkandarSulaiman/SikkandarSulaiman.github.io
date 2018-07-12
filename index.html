@@ -19,11 +19,11 @@
         spreadsheetId: '1BVG0e5WI9S02guH7avlQBS38tUE5WWXebf1wJxbduyE',  // TODO: Update placeholder value.
 
         // The A1 notation of the values to retrieve.
-        range: 'B2:B4',  // TODO: Update placeholder value.
+        range: 'Sheet1',  // TODO: Update placeholder value.
 
         // How values should be represented in the output.
         // The default render option is ValueRenderOption.FORMATTED_VALUE.
-        valueRenderOption: 'UNFORMATTED_VALUE',  // TODO: Update placeholder value.
+        // valueRenderOption: 'UNFORMATTED_VALUE',  // TODO: Update placeholder value.
 
         // How dates, times, and durations should be represented in the output.
         // This is ignored if value_render_option is
@@ -52,7 +52,7 @@
       //   'https://www.googleapis.com/auth/drive.readonly'
       //   'https://www.googleapis.com/auth/spreadsheets'
       //   'https://www.googleapis.com/auth/spreadsheets.readonly'
-      var SCOPE = 'https://www.googleapis.com/auth/spreadsheets';
+      var SCOPE = 'https://www.googleapis.com/auth/spreadsheets.readonly';
 
       gapi.client.init({
         'apiKey': API_KEY,

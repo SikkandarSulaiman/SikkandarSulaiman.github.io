@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: darkslategray;
+	margin-left: 350px;
+}
+
+.sidenav {
+	width: 350px;
+}
+
+.sidenav li {
+	float: none;
+	line-height: 48px;
+}
+
+.sidenav li>a {
+	height: 200px;
+	padding-top: 23px;
+}
+
+.profpic {
+	width: 154px;
+	height: 154px;
+	margin: auto;
+	border-radius: 50%;
+	background-image: url('../images/profpic.jpg');
+	background-repeat: round;
+}
+
+.sidenav.sidenav-fixed {
+background: rgb(0,0,0);
+background: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(3,70,118,1) 35%, rgba(0,0,0,1) 100%);
+}
+
+#glass-li-sidenav {
+	line-height: 30px;
+	margin: 5px 20px;
+	padding: 10px 0;
+	min-height: 80px;
+
+    background: rgb(197 210 255 / 19%);
+    box-shadow: 0 4px 30px 20px rgb(0 0 0 / 25%)
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+/*    border: 1px solid rgba(41, 72, 180, 0.3);*/
+}
+
+name {
+	color: white;
+	font-size: x-large;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+desig {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+spec {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.location-wrapper-sidenav > * {
+	color: white;
+}
+
+.location-wrapper-sidenav .myrow1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.location-wrapper-sidenav .myrow2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.location-wrapper-sidenav .myrow3 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*.location-wrapper-sidenav .col1 {
+	width: 15%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+	left: 2px;
+}
+
+.location-wrapper-sidenav .col2 {
+	width: 85%;
+}
+
+.location-wrapper-sidenav .col21 {
+	width: 100%;
+	text-align: right;
+	padding-right: 8px;
+}
+
+.location-wrapper-sidenav .col22 {
+	width: 100%;
+	text-align: right;
+	padding-right: 8px;
+}*/
+
+.location-wrapper-sidenav .col11, .location-wrapper-sidenav .col21, .location-wrapper-sidenav .col31 {
+	width: 15%;
+    position: relative;
+    text-align: center;
+    top: 5px;
+}
+
+.location-wrapper-sidenav .col12, .location-wrapper-sidenav .col22, .location-wrapper-sidenav .col32 {
+	width: 85%;
+		text-align: right;
+	padding-right: 8px;
+}
+
+

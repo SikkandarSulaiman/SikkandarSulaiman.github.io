@@ -1,0 +1,126 @@
+#aboutme-body {
+    text-align: justify;
+}
+
+/* screen size <= xs */
+@media (max-width: 576px) {
+    #aboutme-body {
+        font-size: medium;
+        padding-top: 10px;
+    }
+}
+
+highlights > .row {
+    margin-top: 30px;
+}
+
+highlights .material-icons, highlights .material-symbols-outlined {
+    color: greenyellow;
+    padding: 10px;
+    border: 6px solid greenyellow;
+    border-radius: 50%;
+}
+
+highlights .hlt-number {
+    font-size: xx-large;
+    padding-left: 10px;
+    color: greenyellow;
+}
+
+highlights .hlt-text {
+    color: greenyellow;
+}
+
+/* screen size <= xs */
+@media (max-width: 576px) {
+    highlights .material-icons, highlights .material-symbols-outlined {
+        padding: 5px;
+        border: 3px solid greenyellow;
+    }
+
+    highlights .hlt-number {
+        font-size: x-large;
+        padding-left: 10px;
+        color: greenyellow;
+        position: relative;
+        top: -5px;
+    }
+
+    highlights .hlt-text {
+        color: greenyellow;
+        font-size: smaller;
+    }
+}
+
+#tech-head {
+    margin-top: 40px;
+}
+
+techskills > .row {
+    margin: 6px 0;
+}
+
+techskills .col {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-right: 6px solid darkslategray;
+}
+
+techskills .col:first-child {
+/*    margin-right: 3px !important;*/
+}
+
+techskills .col:nth-child(2) {
+/*    margin-left: 3px !important;*/
+}
+
+.tech-cat {
+    float: left;
+    color: gray;
+}
+
+.tech-skill {
+    float: right;
+    padding-right: 15%;
+}
+
+/* screen size <= xs */
+@media (max-width: 576px) {
+    .tech-cat {
+        display: none;
+    }
+
+    .tech-skill {
+        float: none;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+
+    techskills .col {
+        border-right: none;
+    }
+}
+
+#prof-head {
+    margin-top: 20px;
+}
+
+.work-exp {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 6px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+}
+
+.emp-name {
+    color: greenyellow;
+    font-size: xx-large;
+/*    float: left;*/
+}
+
+.work-location, .work-duration {
+    text-align: right;
+}
+
+.product-line {
+    color: greenyellow;
+}

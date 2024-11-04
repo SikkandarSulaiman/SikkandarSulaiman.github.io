@@ -61,7 +61,7 @@ body {
 /* screen size >= md */
 @media (min-width: 786px) {
 	body {
-		margin-left: 350px;
+/*		margin-left: 350px;*/
 	}
 }
 

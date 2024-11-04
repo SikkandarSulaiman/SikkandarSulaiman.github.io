@@ -105,10 +105,103 @@ spec {
 	padding-left: 10px;
 }
 
-.name {
+.photosq .name {
 	font-size: x-large;
 }
 
 
 
+.bigpic {
+/*	background: darkslategray;*/
+	background-image: url('../images/profbigpic_16x9.jpg');
+	background-repeat: round;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	box-shadow: inset 0px -200px 110px -60px darkslategray;
+	position: relative;
+}
 
+.bigpic > img {
+	width: 100%;
+	aspect-ratio: 16/9;
+	opacity: 0.1;
+/*	box-shadow: inset 0px -200px 110px -60px darkslategray;*/
+}
+
+.bigpic > .leftfade {
+/*	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image.jpg');*/
+			background-image: url('../images/profbigpic_16x9.jpg');
+			background-repeat: round;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+			aspect-ratio: 16/9;
+            filter: brightness(0.2);
+            clip-path: polygon(0 0, 65% 0, 20% 100%, 0% 100%);
+            box-shadow: inset 0px -200px 110px -60px darkslategray;
+        }
+
+.bigpic > .rightfade {
+/*	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image.jpg');*/
+			background-image: url('../images/profbigpic_16x9.jpg');
+			background-repeat: round;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+			aspect-ratio: 16/9;
+            filter: brightness(0.2);
+            clip-path: polygon(92% 0, 100% 0, 100% 100%, 50% 100%);
+            box-shadow: inset 0px -200px 110px -60px darkslategray;
+        }
+
+
+.bigpic .name {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    font-size: xxx-large;
+}
+
+.bigpic .desig {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    font-size: xx-large;
+}
+
+.bigpic .spec {
+	position: absolute;
+	right: 4%;
+	bottom: 20%;
+	font-size: xx-large;
+}
+
+.glass-contact {
+	line-height: 30px;
+	margin: 10px;
+	padding: 10px;
+	min-height: 80px;
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 30%;
+}
+
+.glass-contact .row {
+	float: right;
+}
+
+.glass-contact .row > .icon {
+	text-align: right;
+	float: right;
+	width: 10px;
+}
+
+.glass-contact .row > .value {
+	text-align: right;
+	float: right;
+	width: 260px;
+}

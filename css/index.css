@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+	width: 0;
+}
+
 @font-face {
   font-family: "Aller";
   src: url('../fonts/aller/Aller_Std_Rg.ttf') format('truetype');

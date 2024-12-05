@@ -109,14 +109,13 @@ spec {
 	font-size: x-large;
 }
 
-
-
 .bigpic {
 /*	background: darkslategray;*/
 	background-image: url('../images/profbigpic_16x9.jpg');
 	background-repeat: round;
 	width: 100%;
 	aspect-ratio: 16/9;
+/*	height: 100vh;*/
 	box-shadow: inset 0px -200px 110px -60px darkslategray;
 	position: relative;
 }
@@ -130,6 +129,7 @@ spec {
             left: 0;
             width: 100%;
 			aspect-ratio: 16/9;
+/*			height: 100vh;*/
             filter: brightness(0.4);
             clip-path: polygon(0 0, 65% 0, 20% 100%, 0% 100%);
 /*            box-shadow: inset 0px -200px 110px -60px darkslategray;*/
@@ -144,6 +144,7 @@ spec {
             left: 0;
             width: 100%;
 			aspect-ratio: 16/9;
+/*			height: 100vh;*/
             filter: brightness(0.4);
             clip-path: polygon(92% 0, 100% 0, 100% 100%, 50% 100%);
 /*            box-shadow: inset 0px -200px 110px -60px darkslategray;*/

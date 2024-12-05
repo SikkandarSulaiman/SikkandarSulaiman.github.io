@@ -10,6 +10,56 @@
     }
 }
 
+.glass-contact-mainpage {
+    line-height: 30px;
+    margin: 10px;
+    padding: 10px;
+    min-height: 80px;
+
+/*    position: absolute;
+    right: 0;
+    bottom: 0;*/
+    width: 80%;
+}
+
+.glass-contact-mainpage .row {
+    float: right;
+}
+
+.glass-contact-mainpage .row > .icon {
+    text-align: right;
+    float: right;
+    width: 10px;
+}
+
+.glass-contact-mainpage .row > .value {
+    text-align: right;
+    float: right;
+    width: 260px;
+}
+
+.contacts {
+    margin-top: 30px;
+}
+
+.contacts .row .col {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.contacts .row .col:last-child {
+    border-right: none;
+}
+
+.dlresume-wrapper {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.aboutme {
+    margin-top: 30px;
+}
+
 highlights > .row {
     margin-top: 30px;
 }
